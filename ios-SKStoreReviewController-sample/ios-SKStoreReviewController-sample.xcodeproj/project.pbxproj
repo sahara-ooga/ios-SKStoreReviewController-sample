@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF7906E020CA58580082902F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7906DF20CA58580082902F /* AppDelegate.swift */; };
+		DF7906E220CA58580082902F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7906E120CA58580082902F /* ViewController.swift */; };
+		DF7906E520CA58580082902F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF7906E320CA58580082902F /* Main.storyboard */; };
+		DF7906E720CA585A0082902F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF7906E620CA585A0082902F /* Assets.xcassets */; };
+		DF7906EA20CA585A0082902F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF7906E820CA585A0082902F /* LaunchScreen.storyboard */; };
+		DF7906F520CA585A0082902F /* ios_SKStoreReviewController_sampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7906F420CA585A0082902F /* ios_SKStoreReviewController_sampleTests.swift */; };
+		DF79070120CA58740082902F /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF79070020CA58740082902F /* StoreKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF7906F120CA585A0082902F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF7906D420CA58580082902F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF7906DB20CA58580082902F;
+			remoteInfo = "ios-SKStoreReviewController-sample";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DF7906DC20CA58580082902F /* ios-SKStoreReviewController-sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-SKStoreReviewController-sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF7906DF20CA58580082902F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DF7906E120CA58580082902F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DF7906E420CA58580082902F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF7906E620CA585A0082902F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF7906E920CA585A0082902F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF7906EB20CA585A0082902F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF7906F020CA585A0082902F /* ios-SKStoreReviewController-sampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-SKStoreReviewController-sampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF7906F420CA585A0082902F /* ios_SKStoreReviewController_sampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_SKStoreReviewController_sampleTests.swift; sourceTree = "<group>"; };
+		DF7906F620CA585A0082902F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF79070020CA58740082902F /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF7906D920CA58580082902F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF79070120CA58740082902F /* StoreKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF7906ED20CA585A0082902F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF7906D320CA58580082902F = {
+			isa = PBXGroup;
+			children = (
+				DF7906DE20CA58580082902F /* ios-SKStoreReviewController-sample */,
+				DF7906F320CA585A0082902F /* ios-SKStoreReviewController-sampleTests */,
+				DF7906DD20CA58580082902F /* Products */,
+				DF7906FF20CA58740082902F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DF7906DD20CA58580082902F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF7906DC20CA58580082902F /* ios-SKStoreReviewController-sample.app */,
+				DF7906F020CA585A0082902F /* ios-SKStoreReviewController-sampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF7906DE20CA58580082902F /* ios-SKStoreReviewController-sample */ = {
+			isa = PBXGroup;
+			children = (
+				DF7906DF20CA58580082902F /* AppDelegate.swift */,
+				DF7906E120CA58580082902F /* ViewController.swift */,
+				DF7906E320CA58580082902F /* Main.storyboard */,
+				DF7906E620CA585A0082902F /* Assets.xcassets */,
+				DF7906E820CA585A0082902F /* LaunchScreen.storyboard */,
+				DF7906EB20CA585A0082902F /* Info.plist */,
+			);
+			path = "ios-SKStoreReviewController-sample";
+			sourceTree = "<group>";
+		};
+		DF7906F320CA585A0082902F /* ios-SKStoreReviewController-sampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF7906F420CA585A0082902F /* ios_SKStoreReviewController_sampleTests.swift */,
+				DF7906F620CA585A0082902F /* Info.plist */,
+			);
+			path = "ios-SKStoreReviewController-sampleTests";
+			sourceTree = "<group>";
+		};
+		DF7906FF20CA58740082902F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF79070020CA58740082902F /* StoreKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF7906DB20CA58580082902F /* ios-SKStoreReviewController-sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF7906F920CA585A0082902F /* Build configuration list for PBXNativeTarget "ios-SKStoreReviewController-sample" */;
+			buildPhases = (
+				DF7906D820CA58580082902F /* Sources */,
+				DF7906D920CA58580082902F /* Frameworks */,
+				DF7906DA20CA58580082902F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ios-SKStoreReviewController-sample";
+			productName = "ios-SKStoreReviewController-sample";
+			productReference = DF7906DC20CA58580082902F /* ios-SKStoreReviewController-sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF7906EF20CA585A0082902F /* ios-SKStoreReviewController-sampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF7906FC20CA585A0082902F /* Build configuration list for PBXNativeTarget "ios-SKStoreReviewController-sampleTests" */;
+			buildPhases = (
+				DF7906EC20CA585A0082902F /* Sources */,
+				DF7906ED20CA585A0082902F /* Frameworks */,
+				DF7906EE20CA585A0082902F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF7906F220CA585A0082902F /* PBXTargetDependency */,
+			);
+			name = "ios-SKStoreReviewController-sampleTests";
+			productName = "ios-SKStoreReviewController-sampleTests";
+			productReference = DF7906F020CA585A0082902F /* ios-SKStoreReviewController-sampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF7906D420CA58580082902F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = ogasawara_dev;
+				TargetAttributes = {
+					DF7906DB20CA58580082902F = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					DF7906EF20CA585A0082902F = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = DF7906DB20CA58580082902F;
+					};
+				};
+			};
+			buildConfigurationList = DF7906D720CA58580082902F /* Build configuration list for PBXProject "ios-SKStoreReviewController-sample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF7906D320CA58580082902F;
+			productRefGroup = DF7906DD20CA58580082902F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF7906DB20CA58580082902F /* ios-SKStoreReviewController-sample */,
+				DF7906EF20CA585A0082902F /* ios-SKStoreReviewController-sampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF7906DA20CA58580082902F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF7906EA20CA585A0082902F /* LaunchScreen.storyboard in Resources */,
+				DF7906E720CA585A0082902F /* Assets.xcassets in Resources */,
+				DF7906E520CA58580082902F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF7906EE20CA585A0082902F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF7906D820CA58580082902F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF7906E220CA58580082902F /* ViewController.swift in Sources */,
+				DF7906E020CA58580082902F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF7906EC20CA585A0082902F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF7906F520CA585A0082902F /* ios_SKStoreReviewController_sampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF7906F220CA585A0082902F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF7906DB20CA58580082902F /* ios-SKStoreReviewController-sample */;
+			targetProxy = DF7906F120CA585A0082902F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DF7906E320CA58580082902F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF7906E420CA58580082902F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF7906E820CA585A0082902F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF7906E920CA585A0082902F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF7906F720CA585A0082902F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DF7906F820CA585A0082902F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF7906FA20CA585A0082902F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 469GT6P4NA;
+				INFOPLIST_FILE = "ios-SKStoreReviewController-sample/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sundaycarpenter.com.ios-SKStoreReviewController-sample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF7906FB20CA585A0082902F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 469GT6P4NA;
+				INFOPLIST_FILE = "ios-SKStoreReviewController-sample/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sundaycarpenter.com.ios-SKStoreReviewController-sample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DF7906FD20CA585A0082902F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 469GT6P4NA;
+				INFOPLIST_FILE = "ios-SKStoreReviewController-sampleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sundaycarpenter.com.ios-SKStoreReviewController-sampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-SKStoreReviewController-sample.app/ios-SKStoreReviewController-sample";
+			};
+			name = Debug;
+		};
+		DF7906FE20CA585A0082902F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 469GT6P4NA;
+				INFOPLIST_FILE = "ios-SKStoreReviewController-sampleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sundaycarpenter.com.ios-SKStoreReviewController-sampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-SKStoreReviewController-sample.app/ios-SKStoreReviewController-sample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF7906D720CA58580082902F /* Build configuration list for PBXProject "ios-SKStoreReviewController-sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF7906F720CA585A0082902F /* Debug */,
+				DF7906F820CA585A0082902F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF7906F920CA585A0082902F /* Build configuration list for PBXNativeTarget "ios-SKStoreReviewController-sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF7906FA20CA585A0082902F /* Debug */,
+				DF7906FB20CA585A0082902F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF7906FC20CA585A0082902F /* Build configuration list for PBXNativeTarget "ios-SKStoreReviewController-sampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF7906FD20CA585A0082902F /* Debug */,
+				DF7906FE20CA585A0082902F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF7906D420CA58580082902F /* Project object */;
+}
