@@ -8,5 +8,11 @@ import StoreKit
 SKStoreReviewController.requestReview()
 ```
 
+## Requirements
+
+- iOS10.3~
+- Xcode9.4
+
 ## Reference
-[【iOS】アプリ内からレビューを依頼する 10.3未満も対応 - Qiita](https://qiita.com/asashin227/items/f0c44821020af6ee846d)
+- [SKStoreReviewController - StoreKit | Apple Developer Documentation](https://developer.apple.com/documentation/storekit/skstorereviewcontroller/)
+- [【iOS】アプリ内からレビューを依頼する 10.3未満も対応 - Qiita](https://qiita.com/asashin227/items/f0c44821020af6ee846d)
